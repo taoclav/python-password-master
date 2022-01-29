@@ -18,7 +18,7 @@ def trylogin(): #this method is called when the button is pressed
     #check if both username and password in the entries are same of the given ones
     if username == username_entry.get() and password == password_entry.get():
         print("Correct")
-        call(["python", "turtle4.py"])
+        call(["python", "paint1.py"])
     else:
         print("Wrong")
         print("get the password here: https://pastebin.com/QnJSKyDB")
